@@ -52,7 +52,7 @@
     },
     methods: {
       nowOnAir() {
-        const url = `http://api.nhk.or.jp/v2/pg/now/${this.area}/${this.service}.json?key=${apiKey}`;
+        const url = `https://api.nhk.or.jp/v2/pg/now/${this.area}/${this.service}.json?key=${apiKey}`;
         const app = this;
         app.lost = null;
 

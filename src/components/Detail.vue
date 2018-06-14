@@ -66,7 +66,7 @@
     methods: {
       fetchDetail() {
         const params = this.$route.params;
-        const url = `http://api.nhk.or.jp/v2/pg/info/${params.area}/${params.service}/${params.id}.json?key=${apiKey}`;
+        const url = `https://api.nhk.or.jp/v2/pg/info/${params.area}/${params.service}/${params.id}.json?key=${apiKey}`;
 
         fetch(url).then((res) => {
           return res.json();
