@@ -76,5 +76,5 @@ export default {
     '460': '鹿児島',
     '470': '沖縄',
   },
-  apikey: 'i0agmGmy8DTmrd1d8rGoExybYWA5UhJM',
+  apikey: process.env.NODE_ENV=='development' ? 'i0agmGmy8DTmrd1d8rGoExybYWA5UhJM' : 'sMRB1hUd7dgzwnlL7FWQmZMynvGM9qtO',
 };
